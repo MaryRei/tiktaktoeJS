@@ -14,5 +14,6 @@
 }
  
 @media (min-width: 600px){
-  .cell{font-size: 1vw;}
+   .cell{font-size: 1vw;}
 }
+
