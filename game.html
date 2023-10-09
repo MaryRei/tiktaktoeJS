@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Tik tak toe!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        
+        <h1>Welcome to tik tak toe!</h1>
+          <h2 id="winner"></h2>
+          <form>
+         
+            <h2 class="squares">
+              
+              <button class="cell" name="cell" value="0,0" id="0,0" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value="0,1" id="0,1" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value = "0,2" id="0,2" onclick="square(this.id); return false;"> </button>
+            </h2>
+            <h2 class="squares">
+              <button class="cell" name="cell" value="1,0" id="1,0" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value="1,1" id="1,1" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value="1,2" id="1,2" onclick="square(this.id); return false;"> </button>
+            </h2>
+            <h2 class="squares">
+              <button class="cell" name="cell" value="2,0" id="2,0" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value="2,1" id="2,1" onclick="square(this.id); return false;"> </button>
+              <button class="cell" name="cell" value="2,2" id="2,2" onclick="square(this.id); return false;"> </button>
+            </h2>
+          </form>
+          <form>
+            <button name="restart" onclick="restart()">Restart?</button>
+            
+          </form>
+          
+        </div>
+    
+  </body>
+</html>
